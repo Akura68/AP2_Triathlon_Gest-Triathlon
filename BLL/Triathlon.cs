@@ -8,26 +8,29 @@ namespace BLL
 {
     public class Triathlon
     {
-        private int id;
-        private string nom;
-        private string lieu;
-        private DateTime date_;
-        private int code;
+        private int idT;
+        private string lieuT;
+        private DateTime dateT;
+        private string nomT;
+        private int codeType;
+        private string libelleType;
 
-        public Triathlon(int id, string nom, string lieu, DateTime date_, int code)
+        public Triathlon(int idT, string lieuT, DateTime dateT, string nomT, int codeType, string libelleType)
         {
-            this.id = id;
-            this.nom = nom;
-            this.lieu = lieu;
-            this.date_ = date_;
-            this.code = code;
+            this.idT = idT;
+            this.lieuT = lieuT;
+            this.dateT = dateT;
+            this.nomT = nomT;
+            this.codeType = codeType;
+            this.libelleType = libelleType;
         }
 
-        public int getId() { return id; }
-        public string getNom() { return nom; }
-        public string getLieu() { return lieu; }
-        public DateTime getDate() { return date_; }
-        public int getCode() { return code; }
+        public int getIdT() { return idT; }
+        public string getLieuT() { return lieuT; }
+        public DateTime getDateT() { return dateT; }
+        public string getNomT() { return nomT; }
+        public int getCodeType() { return codeType; }
+        public string getLibelleType() { return libelleType; }
 
     }
 }
