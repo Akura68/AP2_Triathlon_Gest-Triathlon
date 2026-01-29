@@ -29,7 +29,7 @@ namespace Gest_Triathlon
         {
             bool ouvert = Bdd.ouvrirConnexion();
             if (ouvert)
-                MessageBox.Show("Connexion Ok");
+                MessageBox.Show(Bdd.afficherConnexion());
             else
                 MessageBox.Show("Problème de connexion");
         }

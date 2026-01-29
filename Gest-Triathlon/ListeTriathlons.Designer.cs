@@ -44,10 +44,13 @@
             // dgv_trln
             // 
             this.dgv_trln.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dgv_trln.EditMode = System.Windows.Forms.DataGridViewEditMode.EditProgrammatically;
             this.dgv_trln.Location = new System.Drawing.Point(12, 117);
             this.dgv_trln.Name = "dgv_trln";
             this.dgv_trln.Size = new System.Drawing.Size(776, 321);
             this.dgv_trln.TabIndex = 0;
+            this.dgv_trln.CellContentDoubleClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgv_trln_CellContentDoubleClick);
+            this.dgv_trln.KeyDown += new System.Windows.Forms.KeyEventHandler(this.dgv_trln_KeyDown);
             // 
             // btn_filter
             // 
