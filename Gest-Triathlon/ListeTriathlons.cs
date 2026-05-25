@@ -26,7 +26,7 @@ namespace Gest_Triathlon
             if (ouvert)
             {
                 dgv_trln.DataSource = TriathlonDAO.getlesTriathlons();
-                foreach (BLL.Triathlon t in TriathlonDAO.getFiltreTriathlons())
+                foreach (Triathlon t in TriathlonDAO.getFiltreTriathlons())
                 {
                     cbx_lieu.Items.Add(t.getLieuT());
                     cbx_type.Items.Add(t.getLibelleType());

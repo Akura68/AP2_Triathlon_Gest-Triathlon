@@ -95,6 +95,18 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AddUpdCatégories.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddUpdCatégories.Designer.cs">
+      <DependentUpon>AddUpdCatégories.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Catégories.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Catégories.Designer.cs">
+      <DependentUpon>Catégories.cs</DependentUpon>
+    </Compile>
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -115,6 +127,12 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="AddUpdCatégories.resx">
+      <DependentUpon>AddUpdCatégories.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Catégories.resx">
+      <DependentUpon>Catégories.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>

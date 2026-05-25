@@ -33,5 +33,11 @@ namespace Gest_Triathlon
             else
                 MessageBox.Show("Problème de connexion");
         }
+
+        private void catégoriesToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Catégories cat = new Catégories();
+            cat.Show();
+        }
     }
 }

@@ -86,7 +86,7 @@
             this.cbx_lieu.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cbx_lieu.FormattingEnabled = true;
             this.cbx_lieu.Items.AddRange(new object[] {
-            " "});
+            ""});
             this.cbx_lieu.Location = new System.Drawing.Point(80, 34);
             this.cbx_lieu.Name = "cbx_lieu";
             this.cbx_lieu.Size = new System.Drawing.Size(147, 21);
@@ -97,7 +97,7 @@
             this.cbx_type.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cbx_type.FormattingEnabled = true;
             this.cbx_type.Items.AddRange(new object[] {
-            " "});
+            ""});
             this.cbx_type.Location = new System.Drawing.Point(80, 69);
             this.cbx_type.Name = "cbx_type";
             this.cbx_type.Size = new System.Drawing.Size(147, 21);
